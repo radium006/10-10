@@ -1,0 +1,63 @@
+#menu-list{
+    list-style: none;
+    padding: 0 30px;
+}
+
+.buttons{
+    
+}
+
+.buttons button{
+    padding: 10px 35px;
+    margin:0px 15px 10px 15px;
+    font-family: Luminari, fantasy;
+    font-size: 20px;
+}
+
+body{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.dish{
+    display: flex;
+    margin: 15px 0;
+    border: 1px solid lightgrey;
+}
+
+.dish img{
+    padding: 5px;
+}
+
+.text-container{
+    padding-left: 10px;
+}
+
+.text-container h2{
+    margin-top: 5px;
+}
+
+.price{
+    padding: 0 20px;
+    margin-top: -4px;
+    margin-left: auto;
+}
+
+.menu-top{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Luminari, fantasy;
+}
+
+.menu-top h1{
+    font-size: 70px;
+    margin: 2px;
+}
+
